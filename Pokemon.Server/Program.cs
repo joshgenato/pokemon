@@ -1,5 +1,9 @@
+using Pokemon.Server.Configurations;
+
 var builder = WebApplication.CreateBuilder(args);
 
+
+builder.AddConfigurations();
 // Add services to the container.
 
 builder.Services.AddControllers();
